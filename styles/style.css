@@ -14,12 +14,69 @@
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+  position: relative;
+/* background-color: #F2F2F2; */
+/* z-index: -1; */
+
+}
+.logo_place_header{
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1; 
 }
 
+.header__title{
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  width: 730px;
+  z-index: 2;
+  margin: 64px;
+position: absolute;
+top: 170px;
+  }
+
+  .header__subtitle{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight:normal;
+    width: 388px;
+    margin: 64px;
+    position: absolute;
+    z-index: 1;
+    /* top: 560px;  */
+    top: 70%;
+  }
+  
+.header__link{
+ width: 756px;
+ height: 608px;
+ position: absolute;
+ z-index: 1;
+ margin: 64px;
+
+}
+ .header__main-illustration{
+position: absolute;
+right: 0px;
+bottom: 0px;
+width: 756px;
+height: 608px;
+z-index: 2;
+ }
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
+.header__square {
   height: 568px;
   width: 568px;
+  background-color: #2F80ED;
+  top: 64px;
+  right: 0px;
+  position: absolute;
+  z-index:1;
+  
 }
 
 /* including elements with key-value modifiers */
