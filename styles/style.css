@@ -15,8 +15,8 @@
   max-height: 756px;
   /* parameters for the header section */
   position: relative;
-/* background-color: #F2F2F2; */
-/* z-index: -1; */
+background-color: #F2F2F2;
+z-index:auto;
 
 }
 .logo_place_header{
@@ -47,8 +47,8 @@ top: 170px;
     margin: 64px;
     position: absolute;
     z-index: 1;
-    /* top: 560px;  */
-    top: 70%;
+    top: 560px; 
+    
   }
   
 .header__link{
