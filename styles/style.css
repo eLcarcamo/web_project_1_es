@@ -298,7 +298,7 @@ position: relative;
 .footer__column_content_about{
   position: absolute;
   margin-left: 500px;
- color: white
+ color: white;
 }
 .footer__column_content_social{
 position: absolute;
@@ -309,7 +309,7 @@ margin-left: 700px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  color: white
+  color: white;
 }
 .footer__column-heading{
   line-height: 30px;
