@@ -19,10 +19,11 @@
   max-height: 756px;
   /* parameters for the header section */
   position: relative;
-  flex-direction: column;
+  /* flex-direction: column; */
   display: flex;
 background-color: #F2F2F2;
 z-index:auto;
+align-items: center;
 
 }
 .logo_place_header{
@@ -42,7 +43,6 @@ z-index:auto;
   z-index: 2;
   margin: 64px;
 position: absolute;
-top: 170px;
 }
 
 .header__subtitle{
