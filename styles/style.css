@@ -19,6 +19,8 @@
   max-height: 756px;
   /* parameters for the header section */
   position: relative;
+  flex-direction: column;
+  display: flex;
 background-color: #F2F2F2;
 z-index:auto;
 
@@ -51,16 +53,16 @@ top: 170px;
   margin: 64px;
   position: absolute;
   z-index: 1;
-  top: 560px; 
+  bottom: 30px;
     
 }
   
 .header__link{
- width: 756px;
- height: 608px;
+
  position: absolute;
  z-index: 1;
  margin: 64px;
+bottom: 0px;
 
 }
  .header__main-illustration{
@@ -275,7 +277,7 @@ left: 0;
 }
 .table__cell_theme_dark {
   width: 200px;
-  /* color: white; */
+  color: white;
   margin-right: 0;
   margin-top: 80px;
 }
@@ -285,7 +287,11 @@ left: 0;
   min-height: 350px;
   background-color: #1F1F1F;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 60px;
 }
+
 
 .footer__column{
 position: relative;
@@ -294,26 +300,38 @@ position: relative;
 .logo_place_footer{
   width: 183px;
   height: 35px;
+  margin-left: 64px;
 }
 .footer__column_content_about{
   position: absolute;
-  margin-left: 500px;
+  margin-left: 800px;
  color: white;
 }
 .footer__column_content_social{
 position: absolute;
 margin-left: 700px;
 }
+/* .footer__column_content_social{
+
+} */
 .footer__author{
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  /* color: white; */
+  color: white;
+  top: 280px;
+  margin-left: 64px;
 }
 .footer__column-heading{
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  /* color: white; */
+  color: white;
+}
+.footer-list{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 400px;
 }
