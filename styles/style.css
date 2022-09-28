@@ -303,16 +303,18 @@ position: relative;
 }
 .footer__column_content_about{
   position: absolute;
-  margin-left: 800px;
+  /* margin-left: 800px; */
  color: white;
+ right: 300px;
 }
 .footer__column_content_social{
 position: absolute;
-margin-left: 700px;
-}
-.footer__column_content_social{
-position: relative;
+/* margin-left: 700px; */
 right: 100px;
+}
+.footer__column_content_copyright{
+position: relative;
+/* right: 100px; */
 }
 .footer__author{
   line-height: 25px;
